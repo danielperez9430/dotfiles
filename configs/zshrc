@@ -1,0 +1,7 @@
+eval "$(fnm env --use-on-cd --shell zsh)"
+export PATH="$HOME/.local/bin:$PATH"
+alias python=python3
+
+# zsh plugins
+source "$(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+source "$(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
